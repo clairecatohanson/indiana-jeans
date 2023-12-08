@@ -1,39 +1,14 @@
 {
   "submissions": [
     {
-      "id": 1,
-      "ownsBlueJeans": false,
-      "socioLocationId": 1
-    },
-    {
       "ownsBlueJeans": true,
-      "socioLocationId": 2,
-      "id": 2
-    },
-    {
-      "ownsBlueJeans": true,
-      "socioLocationId": 4,
-      "id": 3
-    },
-    {
-      "ownsBlueJeans": true,
-      "socioLocationId": 3,
-      "id": 4
-    },
-    {
-      "ownsBlueJeans": false,
       "socioLocationId": 1,
-      "id": 5
+      "id": 1
     },
     {
-      "ownsBlueJeans": true,
-      "socioLocationId": 4,
-      "id": 6
-    },
-    {
-      "ownsBlueJeans": true,
-      "socioLocationId": 2,
-      "id": 7
+      "ownsBlueJeans": false,
+      "socioLocationId": 3,
+      "id": 2
     }
   ],
   "socioLocations": [

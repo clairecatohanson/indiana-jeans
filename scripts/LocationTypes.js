@@ -14,9 +14,13 @@ export const LocationTypeHTML = async () => {
     document.addEventListener("change", handleLocationChange)
 
     let html = "<section class='component'><h2>Which type of area do you live in?</h2>"
-    for (const location of locationsArray) {
-        html += `<input type='radio' name='location' value='${location.id}'/>  ${location.label}`
-    }
+    // for (const location of locationsArray) {
+    //     html += `<input type='radio' name='location' value='${location.id}'/>  ${location.label}`
+    // }
+    const locationHtmlStringArray = locationsArray.map(location => {
+        return `<input type='radio' name='location' value='${location.id}'/>  ${location.label}`
+    })
+    html += locationHtmlStringArray.join('')
     html += "</section>"
     return html
 }
